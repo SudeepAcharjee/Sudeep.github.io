@@ -4,7 +4,7 @@ function WebPage() {
   return (
     <div className="webpage-container">
       <iframe
-        src="https://sudeep449.hashnode.dev/" // Replace with the URL of the webpage you want to embed
+        src="" // Replace with the URL of the webpage you want to embed
         title="Embedded Webpage"
         width="100%"
         height="800px"

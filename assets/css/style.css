@@ -1882,3 +1882,30 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  border: none;
+  max-width: 100%;
+  width: 100%;
+  height: 600px; /* Adjust height as needed */
+}
+
+/* Media queries for mobile */
+
+@media screen and (max-width: 768px) {
+  .contact-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: 400px; /* Adjust height for mobile */
+  }
+}
