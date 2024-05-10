@@ -1,4 +1,14 @@
 import React from 'react'
+import Icondesign from './assests/images/icon-design.svg'
+import Icondev from './assests/images/icon-dev.svg'
+import Iconapp from './assests/images/icon-app.svg'
+import Iconphoto from './assests/images/icon-photo.svg'
+import Logo1 from './assests/images/logo-1-color.png';
+import Logo2 from './assests/images/logo-2-color.png';
+import Logo3 from './assests/images/logo-3-color.png';
+import Logo4 from './assests/images/logo-4-color.png';
+import Logo5 from './assests/images/logo-5-color.png';
+import Logo6 from './assests/images/logo-6-color.png';
 function About() {
   return (
     <article className="about active" >
@@ -30,7 +40,7 @@ function About() {
         <li className="service-item">
           <div className="service-icon-box">
             <img
-              src="../assets/icon-design.svg"
+              src={Icondesign}
               alt="design icon"
               width={40}
             />
@@ -46,7 +56,7 @@ function About() {
         <li className="service-item">
           <div className="service-icon-box">
             <img
-              src="../assets/images/icon-dev.svg"
+              src={Icondev}
               alt="Web development icon"
               width={40}
             />
@@ -61,7 +71,7 @@ function About() {
         <li className="service-item">
           <div className="service-icon-box">
             <img
-              src="./assets/images/icon-app.svg"
+              src={Iconapp}
               alt="mobile app icon"
               width={40}
             />
@@ -76,7 +86,7 @@ function About() {
         <li className="service-item">
           <div className="service-icon-box">
             <img
-              src="./assets/images/icon-photo.svg"
+              src={Iconphoto}
               alt="camera icon"
               width={40}
             />
@@ -94,7 +104,7 @@ function About() {
     {/*
   - testimonials
 */}
-    <section className="testimonials">
+    {/* <section className="testimonials">
       <h3 className="h3 testimonials-title">Testimonials</h3>
       <ul className="testimonials-list has-scrollbar">
         <li className="testimonials-item">
@@ -210,11 +220,11 @@ function About() {
           </div>
         </li>
       </ul>
-    </section>
+    </section> */}
     {/*
   - testimonials modal
 */}
-    <div className="modal-container" data-modal-container="">
+    {/* <div className="modal-container" data-modal-container="">
       <div className="overlay" data-overlay="" />
       <section className="testimonials-modal">
         <button className="modal-close-btn" data-modal-close-btn="">
@@ -247,7 +257,7 @@ function About() {
           </div>
         </div>
       </section>
-    </div>
+    </div> */}
     {/*
   - clients
 */}
@@ -256,32 +266,32 @@ function About() {
       <ul className="clients-list has-scrollbar">
         <li className="clients-item">
           <a href="#">
-            <img src="./assets/images/logo-1-color.png" alt="client logo" />
+            <img src={Logo1} alt="client logo" />
           </a>
         </li>
         <li className="clients-item">
           <a href="#">
-            <img src="./assets/images/logo-2-color.png" alt="client logo" />
+            <img src={Logo2} alt="client logo" />
           </a>
         </li>
         <li className="clients-item">
           <a href="#">
-            <img src="./assets/images/logo-3-color.png" alt="client logo" />
+            <img src={Logo3} alt="client logo" />
           </a>
         </li>
         <li className="clients-item">
           <a href="#">
-            <img src="./assets/images/logo-4-color.png" alt="client logo" />
+            <img src={Logo4} alt="client logo" />
           </a>
         </li>
         <li className="clients-item">
           <a href="#">
-            <img src="./assets/images/logo-5-color.png" alt="client logo" />
+            <img src={Logo5} alt="client logo" />
           </a>
         </li>
         <li className="clients-item">
           <a href="#">
-            <img src="./assets/images/logo-6-color.png" alt="client logo" />
+            <img src={Logo6} alt="client logo" />
           </a>
         </li>
       </ul>

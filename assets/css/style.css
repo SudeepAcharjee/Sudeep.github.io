@@ -125,7 +125,20 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none;
+    color: ivory;
+    transition: transform 0.5s ease;
+
+}
+a:active {
+  color: rgb(253, 225, 8); /* Change the color for the active state */
+  /* You can add additional styles for the active state here */
+}
+
+a:hover {
+  color: rgb(250, 234, 87); /* Change color on hover */
+  transform: scale(1.35); /* Zoom effect on hover (slightly larger than normal) */
+}
 
 li { list-style: none; }
 
@@ -473,12 +486,6 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
-}
-
-.navbar-link {
-
-  font-size: var(--fs-8);
-  padding: 20px 7px;
 
 }
 
