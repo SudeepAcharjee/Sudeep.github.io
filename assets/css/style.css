@@ -1898,7 +1898,7 @@ iframe {
 
 /* Media queries for mobile */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 608px) {
   .contact-form {
     flex-direction: column;
     align-items: center;
