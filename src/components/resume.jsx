@@ -1,5 +1,8 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChrome} from '@fortawesome/free-brands-svg-icons';
 
+// , faSass, faBootstrap, faGit, faNpm, faJs, faReact, faVuejs, faAngular, faFont, faFileCode, faCss3Alt
 function Resume() {
   return (
     
@@ -15,30 +18,29 @@ function Resume() {
         <ol className="timeline-list">
       <li className="timeline-item">
         <h4 className="h4 timeline-item-title">
-          University school of the arts
+          Bachelors Of Computer Aplications
         </h4>
-        <span>2007 — 2008</span>
+        <span>2022— Present</span>
         <p className="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
+          I am pursing a BCA degree full time from an affilaite LCB College, under Guwahati University. Guwahati, Assam.
         </p>
       </li>
       <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">New york academy of art</h4>
-        <span>2006 — 2007</span>
+        <h4 className="h4 timeline-item-title">Higher Secondary</h4>
+        <span>2020 — 2022</span>
         <p className="timeline-text">
-          Ratione voluptatem sequi nesciunt, facere quisquams facere menda
-          ossimus, omnis voluptas assumenda est omnis..
+          I have completed my Higher Secondary from a reputed school Dronacharya Academy, Barpeta Road, Assam.
+          I have secured 85% in my Higher Secondary Examination from AHSEC Board.
         </p>
       </li>
       <li className="timeline-item">
         <h4 className="h4 timeline-item-title">
-          High school of art and design
+          High school
         </h4>
         <span>2002 — 2004</span>
         <p className="timeline-text">
-          Duis aute irure dolor in reprehenderit in voluptate, quila voluptas
-          mag odit aut fugit, sed consequuntur magni dolores eos.
+          I have completed my High School from one of the best school of North-east India Marian School.
+          I have secured 73% in my High School Examination from SEBA Board.
         </p>
       </li>
     </ol>
@@ -56,36 +58,53 @@ function Resume() {
     </div>
     <ol className="timeline-list">
       <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">Creative director</h4>
-        <span>2015 — Present</span>
+        <h4 className="h4 timeline-item-title">Coding Club Board Member</h4>
+        <span>2023 — Present</span>
         <p className="timeline-text">
-          Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et qvuas molestias exceptur.
+          I am a board member of Coding Club of my college. I am responsible for conducting workshops, seminars, and events.
         </p>
       </li>
       <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">Art director</h4>
-        <span>2013 — 2015</span>
+        <h4 className="h4 timeline-item-title">Hackathon</h4>
+        <span>2023 — Present</span>
         <p className="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
+          I have participated in various hackathons and i have also won a few of them. I have also participated in many Open Source Contribution.
+          
         </p>
       </li>
       <li className="timeline-item">
-        <h4 className="h4 timeline-item-title">Web designer</h4>
-        <span>2010 — 2013</span>
+        <h4 className="h4 timeline-item-title">Web Project</h4>
+        <span>2023 — present</span>
         <p className="timeline-text">
-          Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit
-          atque corrupti, quos dolores et quas molestias exceptur.
+          I have worked on various web projects. I have also worked on a few freelance projects.
+          I made a few websites for my clients like Schools, Colleges, and small businesses.
         </p>
       </li>
+      
+    </ol>
+  </section>
+
+  <section className="timeline">
+    <div className="title-wrapper">
+      <div className="icon-box">
+        <ion-icon name="book-outline" />
+      </div>
+      <h3 className="h3">Front-End Technologies</h3>
+    </div>
+    <ol className="timeline-list">
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li><FontAwesomeIcon icon={faChrome} /> Chrome Dev-tools</li>
+        </h4>
+      </li>
+      
     </ol>
   </section>
 
 
-  <section className="skill">
-    <h3 className="h3 skills-title">My skills</h3>
-    <ul className="skills-list content-card">
+  {/* <section className="skill">
+    <h3 className="h3 skills-title">My skills</h3> */}
+    {/* <ul className="skills-list content-card">
       <li className="skills-item">
         <div className="title-wrapper">
           <h5 className="h5">Web design</h5>
@@ -122,8 +141,10 @@ function Resume() {
           <div className="skill-progress-fill" style={{ width: "50%" }} />
         </div>
       </li>
-    </ul>
-  </section>
+    </ul> */}
+    
+
+  {/* </section> */}
 
 
       </>
