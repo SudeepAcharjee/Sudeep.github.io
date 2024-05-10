@@ -6,17 +6,17 @@ function Contact() {
   <header>
     <h2 className="h2 article-title">Contact</h2>
   </header>
-  <section className="mapbox" data-mapbox>
+  {/* <section className="mapbox" data-mapbox> */}
     <figure>
       <iframe
-        src="#"
-        width={400}
-        height={300}
+        src="https://forms.visme.co/formsPlayer/76nkg667-contact-us"
+        width={1000}
+        height={800}
         loading="lazy"
       />
     </figure>
-  </section>
-  <section className="contact-form">
+  {/* </section> */}
+  {/* <section className="contact-form">
     <h3 className="h3 form-title">Contact Form</h3>
     <form action="#" className="form" data-form="">
       <div className="input-wrapper">
@@ -50,7 +50,7 @@ function Contact() {
         <span>Send Message</span>
       </button>
     </form>
-  </section>
+  </section> */}
 
 
     </>
