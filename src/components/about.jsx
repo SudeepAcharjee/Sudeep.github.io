@@ -20,17 +20,18 @@ function About() {
     </header>
     <section className="about-text">
       <p>
-        I'm Creative Director and UI/UX Designer from Sydney, Australia,
-        working in web development and print media. I enjoy turning complex
-        problems into simple, beautiful and intuitive designs.
+        I'm Creative Full-stack Developer and UI/UX Designer from Assam, India. . I
+        have been working in Full-Stack Development and Cyber Security. 
+        I enjoy turning complex problems into simple, beautiful and intuitive designs.
+        When I'm not coding or pushing pixels, you'll find me in the chess.com playing chess.
+        I have been practising full time coding for the past 2 years and have been working on it
       </p>
       <p>
-        My job is to build your website so that it is functional and
-        user-friendly but at the same time attractive. Moreover, I add
-        personal touch to your product and make sure that is eye-catching and
-        easy to use. My aim is to bring across your message and identity in
-        the most creative way. I created web design for many famous brand
-        companies.
+       My job is to build your website so that it is functional and user-friendly 
+        but at the same time attractive. I have a strong passion for the creativity and
+        discipline that goes into front-end development. Keeping in mind scalability and
+        clean code that is maintainable and readable. Backend development is also a strong
+        suit of mine. I am proficient in PHP, Node.js, and Python. 
       </p>
     </section>
     {/*
@@ -50,7 +51,7 @@ function About() {
           <div className="service-content-box">
             <h4 className="h4 service-item-title">Web design</h4>
             <p className="service-item-text">
-              The most modern and high-quality design made at a professional
+              The most modern and high-quality design made at a professional. I create a unique design that will help you stand out from the competition.
               level.
             </p>
           </div>
@@ -64,9 +65,9 @@ function About() {
             />
           </div>
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Web development</h4>
+            <h4 className="h4 service-item-title">Front-end development</h4>
             <p className="service-item-text">
-              High-quality development of sites at the professional level.
+              High-quality development of sites at the professional level. Including adaptive layout and animation with new technologies
             </p>
           </div>
         </li>
@@ -79,25 +80,24 @@ function About() {
             />
           </div>
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Mobile apps</h4>
+            <h4 className="h4 service-item-title">Cyber Security</h4>
             <p className="service-item-text">
-              Professional development of applications for iOS and Android.
+             Cyber Security is the practice of defending servers, data from malicious attacks. I have experience in Cyber Security and can help you secure your website.
             </p>
           </div>
         </li>
         <li className="service-item">
           <div className="service-icon-box">
             <img
-              src={Iconphoto}
+              src={Icondev}
               alt="camera icon"
               width={40}
             />
           </div>
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Photography</h4>
+            <h4 className="h4 service-item-title">Backend Development</h4>
             <p className="service-item-text">
-              I make high-quality photos of any category at a professional
-              level.
+            Backend development is the server-side of the website. It is responsible for managing data within the database and serving that data to the front-end to be displayed.
             </p>
           </div>
         </li>
