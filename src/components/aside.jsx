@@ -4,7 +4,7 @@ function Aside() {
   return (
     <>
 
-    <aside className="sidebar" data-sidebar="">
+    <aside className="sidebar" data-sidebar>
     <div className="sidebar-info">
       <figure className="avatar-box">
         <img

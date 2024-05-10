@@ -10,6 +10,11 @@ import Project8Image from './assests/images/project-8.jpg';
 import Project9Image from './assests/images/project-9.png';
 
 function Portfolio() {
+
+
+
+  
+
   return (
     <>
       <header>
@@ -18,23 +23,23 @@ function Portfolio() {
       <section className="projects">
         <ul className="filter-list">
           <li className="filter-item">
-            <button className="active" data-filter-btn="">
+            <button className="active" data-filter-btn>
               All
             </button>
           </li>
           <li className="filter-item">
-            <button data-filter-btn="">Web design</button>
+            <button data-filter-btn>Web design</button>
           </li>
           <li className="filter-item">
-            <button data-filter-btn="">Applications</button>
+            <button data-filter-btn>Applications</button>
           </li>
           <li className="filter-item">
-            <button data-filter-btn="">Web development</button>
+            <button data-filter-btn>Web development</button>
           </li>
         </ul>
         <div className="filter-select-box">
-          <button className="filter-select" data-select="">
-            <div className="select-value" data-selecct-value="">
+          <button className="filter-select" data-select>
+            <div className="select-value" data-selecct-value>
               Select category
             </div>
             <div className="select-icon">
@@ -43,23 +48,23 @@ function Portfolio() {
           </button>
           <ul className="select-list">
             <li className="select-item">
-              <button data-select-item="">All</button>
+              <button data-select-item>All</button>
             </li>
             <li className="select-item">
-              <button data-select-item="">Web design</button>
+              <button data-select-item>Web design</button>
             </li>
             <li className="select-item">
-              <button data-select-item="">Applications</button>
+              <button data-select-item>Applications</button>
             </li>
             <li className="select-item">
-              <button data-select-item="">Web development</button>
+              <button data-select-item>Web development</button>
             </li>
           </ul>
         </div>
         <ul className="project-list">
           <li
             className="project-item  active"
-            data-filter-item=""
+            data-filter-item
             data-category="web development"
           >
             <a href="#">
@@ -79,7 +84,7 @@ function Portfolio() {
           </li>
           <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="web development"
       >
         <a href="#">
@@ -99,7 +104,7 @@ function Portfolio() {
       </li>
       <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="web design"
       >
         <a href="#">
@@ -119,7 +124,7 @@ function Portfolio() {
       </li>
       <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="applications"
       >
         <a href="#">
@@ -139,7 +144,7 @@ function Portfolio() {
       </li>
       <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="web design"
       >
         <a href="#">
@@ -159,7 +164,7 @@ function Portfolio() {
       </li>
       <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="web design"
       >
         <a href="#">
@@ -179,7 +184,7 @@ function Portfolio() {
       </li>
       <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="web development"
       >
         <a href="#">
@@ -199,7 +204,7 @@ function Portfolio() {
       </li>
       <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="applications"
       >
         <a href="#">
@@ -219,7 +224,7 @@ function Portfolio() {
       </li>
       <li
         className="project-item  active"
-        data-filter-item=""
+        data-filter-item
         data-category="web development"
       >
         <a href="#">
