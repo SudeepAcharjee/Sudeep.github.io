@@ -1893,7 +1893,7 @@ iframe {
   border: none;
   max-width: 100%;
   width: 100%;
-  height: 600px; /* Adjust height as needed */
+  height: 900px; /* Adjust height as needed */
 }
 
 /* Media queries for mobile */
@@ -1906,6 +1906,6 @@ iframe {
 
   iframe {
     width: 100%;
-    height: 400px; /* Adjust height for mobile */
+    height: 700px; /* Adjust height for mobile */
   }
 }
