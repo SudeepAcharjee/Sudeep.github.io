@@ -89,17 +89,127 @@ function Resume() {
       <div className="icon-box">
         <ion-icon name="book-outline" />
       </div>
-      <h3 className="h3">Front-End Technologies</h3>
+      <h3 className="h3">Professional Skillset</h3>
     </div>
     <ol className="timeline-list">
       <li className="timeline-item">
         <h4 className="h4 timeline-item-title">
-        <li><FontAwesomeIcon icon={faChrome} /> Chrome Dev-tools</li>
+        <li>Programming Language</li>
         </h4>
+        <span>1. C (Advaance with DSA)</span> 
+        <span>2. C++ (Intermediate) </span>
+        <span>3. JavaScript (Advance with DSA)</span>
+        <span>4. TypeScript (BAsic)</span>
+        <span>5. Python (Intermediate)</span>
+        <span>6. Php (Basic)</span>
+        <span>7. GO (Basic)</span>
+        <span>8. Java (Basic)</span>
+      </li>
+
+
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Front-end technologies</li>
+        </h4>
+        <span>1. Html-CSS (Advaance )</span> 
+        <span>2. Bootstrap (Intermediate) </span>
+        <span>3. React (Advance )</span>
+        <span>4. Jquery (Basic)</span>
+        <span>5. Tailwind Css (Intermediate)</span>
+        <span>6. Sass (Basic)</span>
+        <span>7. Figma (Basic)</span>
+        <span>8. Django (Basic)</span>
+        <span>9. Laravel (Basic)</span>
+        <span>10. Express.js (Basic)</span>
+        <span>11. Flask (Basic)</span>
+      </li>
+
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Back-end technologies</li>
+        </h4>
+        <span>1. Firebase (Advaance )</span> 
+        <span>2. Supabase (Intermediate) </span>
+        <span>3. Nodejs (Intermediate )</span>
+        <span>4. Nextjs (Basic)</span>
+        <span>5. MySql (Intermediate)</span>
+        <span>6. MongoDb (Basic)</span>
+        <span>7. Flask (Basic)</span>
+        <span>8. Django (Basic)</span>
+        <span>9. Laravel (Basic)</span>
+        <span>10. pHp (Basic)</span>
       </li>
       
+
     </ol>
   </section>
+
+  {/* <section className="timeline">
+    <div className="title-wrapper">
+      <div className="icon-box">
+        <ion-icon name="book-outline" />
+      </div>
+      <h3 className="h3">Front-end Technologies</h3>
+    </div>
+    <ol className="timeline-list">
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Html-CSS</li>
+        </h4>
+        <span>Advance Level</span>
+      </li>
+
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Bootstrap</li>
+        </h4>
+        <span>Intermediate </span>
+      </li>
+
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>JQuery</li>
+        </h4>
+        <span>Advaance </span>
+      </li>
+      
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Scss</li>
+        </h4>
+        <span>Basics</span>
+      </li>
+
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>React</li>
+        </h4>
+        <span>Intermediate </span>
+      </li>
+
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Tailwind css</li>
+        </h4>
+        <span>Intermediate </span>
+      </li>
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Express.js</li>
+        </h4>
+        <span>Basics</span>
+      </li>
+
+    </ol>
+  </section> */}
+
+
+
+
+
+
+
+
 
 
   {/* <section className="skill">
