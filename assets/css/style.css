@@ -137,7 +137,7 @@ a:active {
 
 a:hover {
   color: rgb(250, 234, 87); /* Change color on hover */
-  transform: scale(1.35); /* Zoom effect on hover (slightly larger than normal) */
+  transform: scale(1.05); /* Zoom effect on hover (slightly larger than normal) */
 }
 
 li { list-style: none; }
