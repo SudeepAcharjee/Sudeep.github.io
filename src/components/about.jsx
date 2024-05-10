@@ -1,5 +1,4 @@
 import React from 'react'
-
 function About() {
   return (
     <article className="about active" >
@@ -31,8 +30,7 @@ function About() {
         <li className="service-item">
           <div className="service-icon-box">
             <img
-              src="./assets/images/icon-design.svg
-        "
+              src="../assets/icon-design.svg"
               alt="design icon"
               width={40}
             />
@@ -48,7 +46,7 @@ function About() {
         <li className="service-item">
           <div className="service-icon-box">
             <img
-              src="./assets/images/icon-dev.svg"
+              src="../assets/images/icon-dev.svg"
               alt="Web development icon"
               width={40}
             />

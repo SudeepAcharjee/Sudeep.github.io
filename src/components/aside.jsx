@@ -1,12 +1,14 @@
 import React from 'react'
-
+import myAvatar from './assests/images/my-avatar.png';
 function Aside() {
   return (
+    <>
+
     <aside className="sidebar" data-sidebar="">
     <div className="sidebar-info">
       <figure className="avatar-box">
         <img
-          src="./assets/images/my-avatar.png"
+          src={myAvatar}
           alt="Richard hanrick"
           width={80}
         />
@@ -87,6 +89,7 @@ function Aside() {
      
     </div>
   </aside>
+  </>
   )
 }
 
