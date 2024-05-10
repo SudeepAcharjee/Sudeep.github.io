@@ -9,8 +9,10 @@ import Logo3 from './assests/images/logo-3-color.png';
 import Logo4 from './assests/images/logo-4-color.png';
 import Logo5 from './assests/images/logo-5-color.png';
 import Logo6 from './assests/images/logo-6-color.png';
+import Github from './github'
 function About() {
   return (
+    <>
     <article className="about active" >
 
     <header>
@@ -261,7 +263,7 @@ function About() {
     {/*
   - clients
 */}
-    <section className="clients">
+    {/* <section className="clients">
       <h3 className="h3 clients-title">Clients</h3>
       <ul className="clients-list has-scrollbar">
         <li className="clients-item">
@@ -295,8 +297,10 @@ function About() {
           </a>
         </li>
       </ul>
-    </section>
+    </section> */}
+    <Github />
   </article>
+  </>
   )
 }
 
