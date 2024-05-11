@@ -1,5 +1,6 @@
 import React from 'react'
 import Blog6 from './assests/images/blog-6.jpg'
+import ReactPlayer from 'react-player'
 function Blog() {
   return (
     <>
@@ -33,12 +34,10 @@ function Blog() {
               esse cillum.
             </p>
           </div>
+          
         </a>
       </li>
-
-
-
-      
+ 
     </ul>
   </section>
       </>

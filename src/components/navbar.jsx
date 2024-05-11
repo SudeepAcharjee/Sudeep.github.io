@@ -21,7 +21,7 @@ function Navbar() {
       </li>
       <li className="navbar-item">
         <button className="navbar-link" data-nav-link="">
-         <a href='./blog'>Blog</a>
+         <a href='https://sudeep449.hashnode.dev/'>Blog</a>
         </button>
       </li>
       <li className="navbar-item">
