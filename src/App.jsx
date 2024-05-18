@@ -38,11 +38,11 @@ function App() {
     <Navbar /> 
    
     {component}
-    {/* <About />  
+    <About />  
     <Resume /> 
     <Portfolio />
     <Blog />
-    <Contact /> */}
+    <Contact />
    
     </div>
   </main>
