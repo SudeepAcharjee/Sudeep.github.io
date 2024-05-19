@@ -6,7 +6,6 @@ import Portfolio from './components/portfolio';
 import Blog from './components/blog';
 import Contact from './components/contact';
 import Resume from './components/resume';
-dc
 function App() {
     
   let component
