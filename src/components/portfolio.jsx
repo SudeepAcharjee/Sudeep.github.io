@@ -39,6 +39,34 @@ import A17 from './assests/images/50-17.png';
 import A18 from './assests/images/50-18.png';
 import A19 from './assests/images/50-19.png';
 import A20 from './assests/images/50-20.png';
+import A21 from './assests/images/50-21.png';
+import A22 from './assests/images/50-22.png';
+import A23 from './assests/images/50-23.png';
+import A24 from './assests/images/50-24.png';
+import A25 from './assests/images/50-25.png';
+import A26 from './assests/images/50-26.png';
+import A27 from './assests/images/50-27.png';
+import A28 from './assests/images/50-28.png';
+import A29 from './assests/images/50-29.png';
+import A30 from './assests/images/50-30.png';
+import A31 from './assests/images/50-31.png';
+import A32 from './assests/images/50-32.png';
+import A33 from './assests/images/50-33.png';
+import A34 from './assests/images/50-34.png';
+import A35 from './assests/images/50-35.png';
+import A36 from './assests/images/50-36.png';
+import A37 from './assests/images/50-37.png';
+import A38 from './assests/images/50-38.png';
+import A39 from './assests/images/50-39.png';
+import A40 from './assests/images/50-40.png';
+import A41 from './assests/images/50-41.png';
+import A42 from './assests/images/50-42.png';
+import A43 from './assests/images/50-43.png';
+
+import A45 from './assests/images/50-45.png';
+import A46 from './assests/images/50-46.png';
+
+
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -84,8 +112,31 @@ function Portfolio() {
     {id: 38, title: 'Online-From', category: 'front-end', subCategory: 'html-css-js', img: A18, link: 'https://onlinnne-form.netlify.app/'},
     {id: 39, title: 'Language-Translator', category: 'front-end', subCategory: 'html-css-js', img: A19, link: 'https://translator-19.netlify.app/'},
     {id: 40, title: 'Piano-App', category: 'front-end', subCategory: 'html-css-js', img: A20, link: 'https://playable-piano20.netlify.app/'},
-    
-
+    {id: 41, title: 'Image-Resizer', category: 'front-end', subCategory: 'html-css-js', img: A21, link: 'https://image-resizer-21.netlify.app/'},
+    {id: 42, title: 'Calender-App', category: 'front-end', subCategory: 'html-css-js', img: A22, link: 'https://dynamic-calander-22.netlify.app/'},
+    {id: 43, title: 'File-downloader', category: 'front-end', subCategory: 'html-css-js', img: A23, link: 'https://file-downoader-23.netlify.app/'},
+    {id: 44, title: 'Chess-Game', category: 'front-end', subCategory: 'html-css-js', img: A24, link: 'https://chess-game-24.netlify.app/'},
+    {id: 45, title: 'Car-Racing', category: 'front-end', subCategory: 'html-css-js', img: A25, link: 'https://car-racing-25.netlify.app/'},
+    {id: 46, title: 'Connect-4', category: 'front-end', subCategory: 'html-css-js', img: A26, link: 'https://connect-game-26.netlify.app/'},
+    {id: 47, title: 'Snake-Game', category: 'front-end', subCategory: 'html-css-js', img: A27, link: 'https://snake-lader-game-27.netlify.app/'},
+    {id: 48, title: 'Word-Guessing', category: 'front-end', subCategory: 'html-css-js', img: A28, link: 'https://word-guessing-game-28.netlify.app/'},
+    {id: 49, title: 'Analog-Clock', category: 'front-end', subCategory: 'html-css-js', img: A29, link: 'https://analog-watch-29.netlify.app/'},
+    {id: 50, title: 'Image-Editor', category: 'front-end', subCategory: 'html-css-js', img: A30, link: 'https://photo-editor-30.netlify.app/'},
+    {id: 51, title: 'Music-Player', category: 'front-end', subCategory: 'html-css-js', img: A31, link: 'https://music-player-31.netlify.app/'},
+    {id: 52, title: 'Calculator', category: 'front-end', subCategory: 'html-css-js', img: A32, link: 'https://calculator-32.netlify.app/'},
+    {id: 53, title: 'Rock-paper-scissor', category: 'front-end', subCategory: 'html-css-js', img: A33, link: 'https://rock-paper-scissors-game-33.netlify.app/'},
+    {id: 54, title: 'Notes-App', category: 'front-end', subCategory: 'html-css-js', img: A34, link: 'https://note-app-34.netlify.app/'},
+    {id: 55, title: 'Save-Text-File', category: 'front-end', subCategory: 'html-css-js', img: A35, link: 'https://text-file-saver.netlify.app/'},
+    {id: 56, title: 'Trading-App', category: 'front-end', subCategory: 'html-css-js', img: A36, link: 'https://trading-app-38.netlify.app/'},
+    {id: 57, title: 'Stop-watch', category: 'front-end', subCategory: 'html-css-js', img: A37, link: 'https://stop-watch-39.netlify.app/'},
+    {id: 58, title: 'To-do-list', category: 'front-end', subCategory: 'html-css-js', img: A38, link: 'https://todo-list-41.netlify.app'},
+    {id: 59, title: 'Twitter-Clone', category: 'front-end', subCategory: 'html-css-js', img: A39, link: 'https://twitter-clone-42.netlify.app/'},
+    {id: 60, title: 'Typing-Game', category: 'front-end', subCategory: 'html-css-js', img: A40, link: 'https://typing-speed-testbysudeep.netlify.app/'},
+    {id: 61, title: 'Admin-Panel', category: 'front-end', subCategory: 'html-css-js', img: A41, link: 'https://admin-panel-dashboard-44.netlify.app/'},
+    {id: 62, title: 'Qoute-Generator', category: 'front-end', subCategory: 'html-css-js', img: A42, link: 'https://random-qoute-generator-47.netlify.app/'},
+    {id: 63, title: 'Quiz-App', category: 'front-end', subCategory: 'html-css-js', img: A43, link: 'https://online-quiz-48.netlify.app/'},
+    {id: 64, title: 'Dinoe-Game', category: 'front-end', subCategory: 'html-css-js', img: A45, link: 'https://dino-game-49.netlify.app/'},
+    {id: 65, title: 'Drag-Drop', category: 'front-end', subCategory: 'html-css-js', img: A46, link: 'https://drag-drop-image.netlify.app/'},
 
 
 
