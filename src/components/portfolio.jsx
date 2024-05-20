@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Project2Image from './assests/images/project-2.png';
 import Project1Image from './assests/images/project-1.jpg';
 import Project3Image from './assests/images/project-3.jpg';
@@ -10,10 +10,27 @@ import Project8Image from './assests/images/project-8.jpg';
 import Project9Image from './assests/images/project-9.png';
 
 function Portfolio() {
+  const [activeFilter, setActiveFilter] = useState('All');
 
+  const projects = [
+    { id: 1, title: 'Finance', category: 'web development', img: Project1Image },
+    { id: 2, title: 'Orizon', category: 'web development', img: Project2Image },
+    { id: 3, title: 'Fundo', category: 'web design', img: Project3Image },
+    { id: 4, title: 'Brawlhalla', category: 'applications', img: Project4Image },
+    { id: 5, title: 'DSM.', category: 'web design', img: Project5Image },
+    { id: 6, title: 'MetaSpark', category: 'web design', img: Project6Image },
+    { id: 7, title: 'Summary', category: 'web development', img: Project7Image },
+    { id: 8, title: 'Task Manager', category: 'applications', img: Project8Image },
+    { id: 9, title: 'Arrival', category: 'web development', img: Project9Image },
+  ];
 
+  const handleFilterClick = (filter) => {
+    setActiveFilter(filter);
+  };
 
-  
+  const filteredProjects = projects.filter(project =>
+    activeFilter === 'All' || project.category === activeFilter.toLowerCase()
+  );
 
   return (
     <>
@@ -23,230 +40,66 @@ function Portfolio() {
       <section className="projects">
         <ul className="filter-list">
           <li className="filter-item">
-            <button className="active" data-filter-btn>
+            <button
+              className={activeFilter === 'All' ? 'active' : ''}
+              onClick={() => handleFilterClick('All')}
+            >
               All
             </button>
           </li>
           <li className="filter-item">
-            <button data-filter-btn>Web design</button>
+            <button
+              className={activeFilter === 'Web design' ? 'active' : ''}
+              onClick={() => handleFilterClick('Web design')}
+            >
+              Web design
+            </button>
           </li>
           <li className="filter-item">
-            <button data-filter-btn>Applications</button>
+            <button
+              className={activeFilter === 'Applications' ? 'active' : ''}
+              onClick={() => handleFilterClick('Applications')}
+            >
+              Applications
+            </button>
           </li>
           <li className="filter-item">
-            <button data-filter-btn>Web development</button>
+            <button
+              className={activeFilter === 'Web development' ? 'active' : ''}
+              onClick={() => handleFilterClick('Web development')}
+            >
+              Web development
+            </button>
           </li>
         </ul>
-        <div className="filter-select-box">
-          <button className="filter-select" data-select>
-            <div className="select-value" data-selecct-value>
-              Select category
-            </div>
-            <div className="select-icon">
-              <ion-icon name="chevron-down" />
-            </div>
-          </button>
-          <ul className="select-list">
-            <li className="select-item">
-              <button data-select-item>All</button>
-            </li>
-            <li className="select-item">
-              <button data-select-item>Web design</button>
-            </li>
-            <li className="select-item">
-              <button data-select-item>Applications</button>
-            </li>
-            <li className="select-item">
-              <button data-select-item>Web development</button>
-            </li>
-          </ul>
-        </div>
         <ul className="project-list">
-          <li
-            className="project-item  active"
-            data-filter-item
-            data-category="web development"
-          >
-            <a href="#">
-              <figure className="project-img">
-                <div className="project-item-icon-box">
-                  <ion-icon name="eye-outline" />
-                </div>
-                <img
-                  src={Project1Image}
-                  alt="finance"
-                  loading="lazy"
-                />
-              </figure>
-              <h3 className="project-title">Finance</h3>
-              <p className="project-category">Web development</p>
-            </a>
-          </li>
-          <li
-        className="project-item  active"
-        data-filter-item
-        data-category="web development"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project2Image}
-              alt="orizon"
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">Orizon</h3>
-          <p className="project-category">Web development</p>
-        </a>
-      </li>
-      <li
-        className="project-item  active"
-        data-filter-item
-        data-category="web design"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project3Image}
-              alt="fundo"
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">Fundo</h3>
-          <p className="project-category">Web design</p>
-        </a>
-      </li>
-      <li
-        className="project-item  active"
-        data-filter-item
-        data-category="applications"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project4Image}
-              alt="brawlhalla"
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">Brawlhalla</h3>
-          <p className="project-category">Applications</p>
-        </a>
-      </li>
-      <li
-        className="project-item  active"
-        data-filter-item
-        data-category="web design"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project5Image}
-              alt="dsm."
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">DSM.</h3>
-          <p className="project-category">Web design</p>
-        </a>
-      </li>
-      <li
-        className="project-item  active"
-        data-filter-item
-        data-category="web design"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project6Image}
-              alt="metaspark"
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">MetaSpark</h3>
-          <p className="project-category">Web design</p>
-        </a>
-      </li>
-      <li
-        className="project-item  active"
-        data-filter-item
-        data-category="web development"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project7Image}
-              alt="summary"
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">Summary</h3>
-          <p className="project-category">Web development</p>
-        </a>
-      </li>
-      <li
-        className="project-item  active"
-        data-filter-item
-        data-category="applications"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project8Image}
-              alt="task manager"
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">Task Manager</h3>
-          <p className="project-category">Applications</p>
-        </a>
-      </li>
-      <li
-        className="project-item  active"
-        data-filter-item
-        data-category="web development"
-      >
-        <a href="#">
-          <figure className="project-img">
-            <div className="project-item-icon-box">
-              <ion-icon name="eye-outline" />
-            </div>
-            <img
-              src={Project9Image}
-              alt="arrival"
-              loading="lazy"
-            />
-          </figure>
-          <h3 className="project-title">Arrival</h3>
-          <p className="project-category">Web development</p>
-        </a>
-      </li>
-    </ul>
-  </section>
-</>
-
-  )
+          {filteredProjects.map(project => (
+            <li
+              key={project.id}
+              className="project-item active"
+              data-filter-item
+              data-category={project.category}
+            >
+              <a href="#">
+                <figure className="project-img">
+                  <div className="project-item-icon-box">
+                    <ion-icon name="eye-outline" />
+                  </div>
+                  <img
+                    src={project.img}
+                    alt={project.title}
+                    loading="lazy"
+                  />
+                </figure>
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-category">{project.category}</p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
+  );
 }
 
-export default Portfolio 
+export default Portfolio;

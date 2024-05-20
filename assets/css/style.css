@@ -1253,6 +1253,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: auto; }
 
 }
+.article-title { padding-bottom: 20px; }
+
+  .filter-select-box { display: none; }
+
+  .filter-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+  }
+
+  .filter-item button {
+    color: var(--light-gray);
+    font-size: var(--fs-5);
+    transition: var(--transition-1);
+  }
+
+  .filter-item button:hover { color: var(--light-gray-70); }
+
+  .filter-item button.active { color: var(--orange-yellow-crayola); }
+
 
 
 
@@ -1513,6 +1536,28 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-posts-list { gap: 30px; }
 
   .blog-content { padding: 25px; }
+  .article-title { padding-bottom: 20px; }
+
+  .filter-select-box { display: none; }
+
+  .filter-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+  }
+
+  .filter-item button {
+    color: var(--light-gray);
+    font-size: var(--fs-5);
+    transition: var(--transition-1);
+  }
+
+  .filter-item button:hover { color: var(--light-gray-70); }
+
+  .filter-item button.active { color: var(--orange-yellow-crayola); }
 
 
 
@@ -1907,5 +1952,38 @@ iframe {
   iframe {
     width: 100%;
     height: 700px; /* Adjust height for mobile */
+  }
+}
+
+
+/* Styles for screens with a width between 320px and 440px */
+@media (min-width: 320px) and (max-width: 440px) {
+  .filter-list {
+    flex-direction: row;
+    justify-content: center; /* Center the items horizontally */
+    gap: 5px;
+    padding-left: 1px;
+    margin-bottom: 10px;
+  }
+
+  .filter-item button {
+    font-size: var(--fs-5);
+  }
+}
+
+/* Styles for screens with a maximum width of 320px */
+@media (min-width: 320px) and (max-width: 430px){
+  .filter-list {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .filter-item button {
+    font-size: var(--fs-6);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
   }
 }
