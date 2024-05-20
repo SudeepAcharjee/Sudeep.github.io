@@ -10,6 +10,8 @@ import Portfolio2 from './assests/images/portfoli2.png';
 import Pcard from './assests/images/pcard.png';
 import Text from './assests/images/text-cov.png';
 import Hallo from './assests/images/hallowen.png';
+import Invite from './assests/images/invite.png';
+import Dictionary from './assests/images/dictionary.png';
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -25,6 +27,9 @@ function Portfolio() {
     { id: 8, title: 'Portfolio2(Js-3js)', category: 'front-end', img: Portfolio2, link: 'https://sudeep-acharjee.netlify.app/'},
     { id: 9, title: 'Profile-card(js)', category: 'front-end', img: Pcard, link: 'https://sudeep-profile-card.netlify.app/'},
     { id: 10, title: 'Audio-Text Converter(JS)', category: 'front-end', img: Text, link: 'https://text-ai.netlify.app/'},
+    { id: 11, title: 'Halloween(js)', category: 'front-end', img: Hallo, link: 'https://web3-rose.vercel.app/'},
+    { id: 12, title: 'Invite-Card(js)', category: 'front-end', img: Invite, link: 'https://invitation-by-sudeep.netlify.app/'},
+    { id: 13, title: 'Dictionary-App(js)', category: 'front-end', img: Dictionary, link: 'https://dictionary-s-develops.netlify.app/'},
 
 
 
