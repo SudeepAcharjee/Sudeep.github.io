@@ -24,6 +24,21 @@ import A2 from './assests/images/50-2.png';
 import A3 from './assests/images/50-3.png';
 import A4 from './assests/images/50-4.png';
 import A5 from './assests/images/50-5.png';
+import A6 from './assests/images/50-6.png';
+import A7 from './assests/images/50-7.png';
+import A8 from './assests/images/50-8.png';
+import A9 from './assests/images/50-9.png';
+import A10 from './assests/images/50-10.png';
+import A11 from './assests/images/50-11.png';
+import A12 from './assests/images/50-12.png';
+import A13 from './assests/images/50-13.png';
+import A14 from './assests/images/50-14.png';
+import A15 from './assests/images/50-15.png';
+import A16 from './assests/images/50-16.png';
+import A17 from './assests/images/50-17.png';
+import A18 from './assests/images/50-18.png';
+import A19 from './assests/images/50-19.png';
+import A20 from './assests/images/50-20.png';
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -53,8 +68,24 @@ function Portfolio() {
     {id: 22, title: 'Blogs-Website', category: 'front-end', subCategory: 'html-css-js', img: A2, link: 'https://blogger-sudeep.netlify.app/'},
     {id: 23, title: 'Restaurant-Website', category: 'front-end', subCategory: 'html-css-js', img: A3, link: 'https://resutrantcode.netlify.app/'},
     {id: 24, title: 'Thrift-Store', category: 'front-end', subCategory: 'html-css-js', img: A4, link: 'https://thrift-flip-store.netlify.app/'},
-    {id: 25, title: 'Book-Store', category: 'front-end', subCategory: 'html-css-js', img: A5, link: 'https://book-store-sudeep.netlify.app/'},
+    {id: 25, title: 'Book-Store', category: 'front-end', subCategory: 'html-css-js', img: A5, link: 'https://e-book-03.netlify.app/'},
+    {id: 26, title: 'Hotel-Website', category: 'front-end', subCategory: 'html-css-js', img: A6, link: 'https://hotel-landing-06.netlify.app/'},
+    {id: 27, title: 'Photo-Agency', category: 'front-end', subCategory: 'html-css-js', img: A7, link: 'https://photography-portfolio07.netlify.app/'},
+    {id: 28, title: 'Gym-Website', category: 'front-end', subCategory: 'html-css-js', img: A8, link: 'https://fitness-portfolio8.netlify.app/'},
+    {id: 29, title: 'Password-Generator', category: 'front-end', subCategory: 'html-css-js', img: A9, link: 'https://generate-pass5.netlify.app/'},
+    {id: 30, title: 'QR-Code-Generator', category: 'front-end', subCategory: 'html-css-js', img: A10, link: 'https://qr-code-generator10.netlify.app/'},
+    {id: 31, title: 'Weather-App', category: 'front-end', subCategory: 'html-css-js', img: A11, link: 'https://weather-app-11-sd.netlify.app/'},
+    {id: 32, title: 'Tic-tac-toe', category: 'front-end', subCategory: 'html-css-js', img: A12, link: 'https://tic-tac-toe-sdev.netlify.app/'},
+    {id: 33, title: 'Link-Shortner', category: 'front-end', subCategory: 'html-css-js', img: A13, link: 'https://link-shorten-13.netlify.app/'},
+    {id: 34, title: 'Drawing-App', category: 'front-end', subCategory: 'html-css-js', img: A14, link: 'https://drawing-app-14.netlify.app/'},
+    {id: 35, title: 'Alarm-Clock', category: 'front-end', subCategory: 'html-css-js', img: A15, link: 'https://alarm-clock-15.netlify.app/'},
+    {id: 36, title: 'Meme-Generator', category: 'front-end', subCategory: 'html-css-js', img: A16, link: 'https://meme-generator-16.netlify.app/'},
+    {id: 37, title: 'Chatting App', category: 'front-end', subCategory: 'html-css-js', img: A17, link: 'https://chatting-webapp-17.netlify.app/'},
+    {id: 38, title: 'Online-From', category: 'front-end', subCategory: 'html-css-js', img: A18, link: 'https://onlinnne-form.netlify.app/'},
+    {id: 39, title: 'Language-Translator', category: 'front-end', subCategory: 'html-css-js', img: A19, link: 'https://translator-19.netlify.app/'},
+    {id: 40, title: 'Piano-App', category: 'front-end', subCategory: 'html-css-js', img: A20, link: 'https://playable-piano20.netlify.app/'},
     
+
 
 
 
