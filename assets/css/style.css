@@ -1987,3 +1987,12 @@ iframe {
     text-align: left;
   }
 }
+
+
+p1.project-sub-category {
+  color: rgb(191, 189, 189);
+  text-align: center;
+  padding-left: 3%;
+  font-size: 0.85rem; /* Adjust the size as needed */
+  text-decoration: none;
+}
