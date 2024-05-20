@@ -1,27 +1,33 @@
 import React, { useState } from 'react';
-import Project2Image from './assests/images/project-2.png';
-import Project1Image from './assests/images/project-1.jpg';
-import Project3Image from './assests/images/project-3.jpg';
-import Project4Image from './assests/images/project-4.png';
-import Project5Image from './assests/images/project-5.png';
-import Project6Image from './assests/images/project-6.png';
-import Project7Image from './assests/images/project-7.png';
-import Project8Image from './assests/images/project-8.jpg';
-import Project9Image from './assests/images/project-9.png';
+import Cimage from './assests/images/c.webp';
+import Cppimage from './assests/images/c++.webp';
+import Python from './assests/images/python.webp';
+import Table from './assests/images/Table.png';
+import Portfolio1 from './assests/images/portfolio1.png';
+import Monkey from './assests/images/monkey.png';
+import Confess from './assests/images/confess.png';
+import Portfolio2 from './assests/images/portfoli2.png';
+import Pcard from './assests/images/pcard.png';
+import Text from './assests/images/text-cov.png';
+import Hallo from './assests/images/hallowen.png';
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('All');
 
   const projects = [
-    { id: 1, title: 'Finance', category: 'web development', img: Project1Image },
-    { id: 2, title: 'Orizon', category: 'web development', img: Project2Image },
-    { id: 3, title: 'Fundo', category: 'web design', img: Project3Image },
-    { id: 4, title: 'Brawlhalla', category: 'applications', img: Project4Image },
-    { id: 5, title: 'DSM.', category: 'web design', img: Project5Image },
-    { id: 6, title: 'MetaSpark', category: 'web design', img: Project6Image },
-    { id: 7, title: 'Summary', category: 'web development', img: Project7Image },
-    { id: 8, title: 'Task Manager', category: 'applications', img: Project8Image },
-    { id: 9, title: 'Arrival', category: 'web development', img: Project9Image },
+    { id: 1, title: 'C-Projects', category: 'others', img: Cimage, link: 'https://github.com/SudeepAcharjee/C-Projects' },
+    { id: 2, title: 'C++-Projects', category: 'others', img: Cppimage, link: 'https://github.com/SudeepAcharjee/CPP-Projects' },
+    { id: 3, title: 'Python-Projects', category: 'others', img: Python, link: 'https://github.com/SudeepAcharjee/Python-projects'},
+    { id: 4, title: 'User-Input-Table(JS)', category: 'front-end', img: Table, link: 'https://user-input-table.netlify.app/' },
+    { id: 5, title: 'Portfolio1(js)', category: 'front-end', img: Portfolio1, link: 'https://sudeep-portfolio.netlify.app/'},
+    { id: 6, title: 'Monkey-Login-Page(js)', category: 'front-end', img: Monkey, link: 'https://animated-monkey-login.netlify.app/'},
+    { id: 7, title: 'Confess-App(js)', category: 'front-end', img: Confess, link: 'https://confess-out-lcbc.netlify.app/'},
+    { id: 8, title: 'Portfolio2(Js-3js)', category: 'front-end', img: Portfolio2, link: 'https://sudeep-acharjee.netlify.app/'},
+    { id: 9, title: 'Profile-card(js)', category: 'front-end', img: Pcard, link: 'https://sudeep-profile-card.netlify.app/'},
+    { id: 10, title: 'Audio-Text Converter(JS)', category: 'front-end', img: Text, link: 'https://text-ai.netlify.app/'},
+
+
+
   ];
 
   const handleFilterClick = (filter) => {
@@ -49,28 +55,29 @@ function Portfolio() {
           </li>
           <li className="filter-item">
             <button
-              className={activeFilter === 'Web design' ? 'active' : ''}
-              onClick={() => handleFilterClick('Web design')}
+              className={activeFilter === 'front-end' ? 'active' : ''}
+              onClick={() => handleFilterClick('front-end')}
             >
-              Web design
+              Front-end
             </button>
           </li>
           <li className="filter-item">
             <button
-              className={activeFilter === 'Applications' ? 'active' : ''}
-              onClick={() => handleFilterClick('Applications')}
+              className={activeFilter === 'Full-Stack' ? 'active' : ''}
+              onClick={() => handleFilterClick('Full-Stack')}
             >
-              Applications
+              Full-Stack
             </button>
           </li>
           <li className="filter-item">
             <button
-              className={activeFilter === 'Web development' ? 'active' : ''}
-              onClick={() => handleFilterClick('Web development')}
+              className={activeFilter === 'others' ? 'active' : ''}
+              onClick={() => handleFilterClick('others')}
             >
-              Web development
+              others
             </button>
           </li>
+          
         </ul>
         <ul className="project-list">
           {filteredProjects.map(project => (
@@ -80,7 +87,7 @@ function Portfolio() {
               data-filter-item
               data-category={project.category}
             >
-              <a href="#">
+              <a href={project.link}>
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <ion-icon name="eye-outline" />
