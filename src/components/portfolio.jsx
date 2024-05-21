@@ -151,7 +151,7 @@ function Portfolio() {
     {id: 72, title: 'Dice-Game', category: 'react', subCategory: 'React-js', img: R7, link: 'https://dice-game-r9.netlify.app/'},
     {id: 73, title: 'Navbar-Darkmode', category: 'react', subCategory: 'React-js', img: R8, link: 'https://navbar-theme-toggle-r10.netlify.app/'},
     
-
+    
 
   ];
 
