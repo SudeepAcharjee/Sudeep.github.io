@@ -62,7 +62,6 @@ import A40 from './assests/images/50-40.png';
 import A41 from './assests/images/50-41.png';
 import A42 from './assests/images/50-42.png';
 import A43 from './assests/images/50-43.png';
-
 import A45 from './assests/images/50-45.png';
 import A46 from './assests/images/50-46.png';
 
