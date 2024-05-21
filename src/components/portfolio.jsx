@@ -64,8 +64,14 @@ import A42 from './assests/images/50-42.png';
 import A43 from './assests/images/50-43.png';
 import A45 from './assests/images/50-45.png';
 import A46 from './assests/images/50-46.png';
-
-
+import R1 from './assests/images/r1.png';
+import R2 from './assests/images/r2.png';
+import R3 from './assests/images/r3.png';
+import R4 from './assests/images/r4.png';
+import R5 from './assests/images/r5.png';
+import R6 from './assests/images/r6.png';
+import R7 from './assests/images/r7.png';
+import R8 from './assests/images/r8.png';
 
 function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -136,7 +142,15 @@ function Portfolio() {
     {id: 63, title: 'Quiz-App', category: 'front-end', subCategory: 'html-css-js', img: A43, link: 'https://online-quiz-48.netlify.app/'},
     {id: 64, title: 'Dinoe-Game', category: 'front-end', subCategory: 'html-css-js', img: A45, link: 'https://dino-game-49.netlify.app/'},
     {id: 65, title: 'Drag-Drop', category: 'front-end', subCategory: 'html-css-js', img: A46, link: 'https://drag-drop-image.netlify.app/'},
-
+    {id: 66, title: 'Counter App', category: 'react', subCategory: 'React-js', img: R1, link: 'https://counter-r1.netlify.app/'},
+    {id: 67, title: 'Todo-App', category: 'react', subCategory: 'React-js', img: R2, link: 'https://todo-list-r2.netlify.app/'},
+    {id: 68, title: 'Calculator-App', category: 'react', subCategory: 'React-js', img: R3, link: 'https://calculator-r3.netlify.app/'},
+    {id: 69, title: 'Recipe-App', category: 'react', subCategory: 'React-js', img: R4, link: 'https://recpie-r5.netlify.app/'},
+    {id: 70, title: 'Brand-Page', category: 'react', subCategory: 'React-js', img: R5, link: 'https://single-page-brand-r7.netlify.app/'},
+    {id: 71, title: 'Contact-Page', category: 'react', subCategory: 'React-js', img: R6, link: 'https://conatact-page-r8.netlify.app/'},
+    {id: 72, title: 'Dice-Game', category: 'react', subCategory: 'React-js', img: R7, link: 'https://dice-game-r9.netlify.app/'},
+    {id: 73, title: 'Navbar-Darkmode', category: 'react', subCategory: 'React-js', img: R8, link: 'https://navbar-theme-toggle-r10.netlify.app/'},
+    
 
 
   ];
