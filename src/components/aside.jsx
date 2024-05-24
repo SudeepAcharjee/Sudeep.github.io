@@ -1,6 +1,10 @@
 import React from 'react'
 import myAvatar from './assests/images/my-avatar.png';
+
+
 function Aside() {
+
+  
   return (
     <>
 
@@ -9,15 +13,20 @@ function Aside() {
       <figure className="avatar-box">
         <img
           src={myAvatar}
-          alt="Richard hanrick"
+          alt="Sudeep Acharjee"
           width={80}
         />
       </figure>
       <div className="info-content">
-        <h1 className="name" title="Richard hanrick">
+        <h1 className="name" title="Sudeep Acharjee">
           Sudeep Acharjee
         </h1>
         <p className="title">Full-Stack Developer</p>
+      
+
+         
+
+
       </div>
       <button className="info_more-btn" data-sidebar-btn >
         <span>Show Contacts</span>
