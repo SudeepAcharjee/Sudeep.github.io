@@ -2,13 +2,7 @@ import React from 'react'
 import Icondesign from './assests/images/icon-design.svg'
 import Icondev from './assests/images/icon-dev.svg'
 import Iconapp from './assests/images/icon-app.svg'
-import Iconphoto from './assests/images/icon-photo.svg'
-import Logo1 from './assests/images/logo-1-color.png';
-import Logo2 from './assests/images/logo-2-color.png';
-import Logo3 from './assests/images/logo-3-color.png';
-import Logo4 from './assests/images/logo-4-color.png';
-import Logo5 from './assests/images/logo-5-color.png';
-import Logo6 from './assests/images/logo-6-color.png';
+
 import Github from './github'
 function About() {
   return (
