@@ -545,7 +545,9 @@ main {
 
 .service-icon-box img { margin: auto; }
 
-.service-content-box { text-align: center; }
+.service-content-box { text-align: center;
+size: 100px;
+}
 
 .service-item-title { margin-bottom: 7px; }
 

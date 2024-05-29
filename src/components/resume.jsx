@@ -118,10 +118,10 @@ function Resume() {
         <span>5. Tailwind Css (Intermediate)</span>
         <span>6. Sass (Basic)</span>
         <span>7. Figma (Basic)</span>
-        <span>8. Django (Basic)</span>
-        <span>9. Laravel (Basic)</span>
-        <span>10. Express.js (Basic)</span>
-        <span>11. Flask (Basic)</span>
+        <span>8. Three.js (Basic)</span>
+        <span>9. GSAP(Intermediate)</span>
+        <span>10. Procreate(Basic)</span>
+        
       </li>
 
       <li className="timeline-item">
@@ -137,7 +137,20 @@ function Resume() {
         <span>7. Flask (Basic)</span>
         <span>8. Django (Basic)</span>
         <span>9. Laravel (Basic)</span>
-        <span>10. pHp (Basic)</span>
+        <span>10. Cloud AWS (Basic)</span>
+      </li>
+
+
+      <li className="timeline-item">
+        <h4 className="h4 timeline-item-title">
+        <li>Developer Tools</li>
+        </h4>
+        <span>1. Mac OS</span> 
+        <span>2. Linux OS </span>
+        <span>3. Git & Github</span>
+        <span>4. VS Code</span>
+        <span>5. Devops</span>
+        <span>6. Netlify</span>
       </li>
       
 

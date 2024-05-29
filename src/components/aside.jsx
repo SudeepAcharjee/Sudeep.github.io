@@ -44,7 +44,7 @@ function Aside() {
           </a>
         </li>
         <li className="social-item">
-          <a href="#" className="social-link">
+          <a href="https://www.instagram.com/_al.che.mist/" className="social-link">
             <ion-icon name="logo-instagram" />
           </a>
         </li>

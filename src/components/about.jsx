@@ -2,7 +2,7 @@ import React from 'react'
 import Icondesign from './assests/images/icon-design.svg'
 import Icondev from './assests/images/icon-dev.svg'
 import Iconapp from './assests/images/icon-app.svg'
-
+import '../App.css'
 import Github from './github'
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
     <section className="about-text">
       <p>
         I'm Creative Full-stack Developer and UI/UX Designer from Assam, India. . I
-        have been working in Full-Stack Development and Cyber Security. 
+        have been working in Full-Stack Development and 3D Web Development. 
         I enjoy turning complex problems into simple, beautiful and intuitive designs.
         When I'm not coding or pushing pixels, you'll find me in the chess.com playing chess.
         I have been practising full time coding for the past 2 years and have been working on it
@@ -25,7 +25,7 @@ function About() {
         but at the same time attractive. I have a strong passion for the creativity and
         discipline that goes into front-end development. Keeping in mind scalability and
         clean code that is maintainable and readable. Backend development is also a strong
-        suit of mine. I am proficient in PHP, Node.js, and Python. 
+        suit of mine. I am proficient in Nextjs, Node.js, Go, and Python. 
       </p>
     </section>
     {/*
@@ -61,7 +61,7 @@ function About() {
           <div className="service-content-box">
             <h4 className="h4 service-item-title">Front-end development</h4>
             <p className="service-item-text">
-              High-quality development of sites at the professional level. Including adaptive layout and animation with new technologies
+              High-quality development of sites at the professional level. Including adaptive layout and 3d-animation with new technologies
             </p>
           </div>
         </li>
@@ -74,10 +74,10 @@ function About() {
             />
           </div>
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Cyber Security</h4>
+            <h4 className="h4 service-item-title">App Development</h4>
             <p className="service-item-text">
-             Cyber Security is the practice of defending servers, data from malicious attacks. I have experience in Cyber Security and can help you secure your website.
-            </p>
+              I create mobile applications for Android and iOS. I use the latest technologies and trends in the development of mobile applications.
+             </p>
           </div>
         </li>
         <li className="service-item">

@@ -16,7 +16,7 @@ function Navbar() {
       </li>
       <li className="navbar-item">
         <button className="navbar-link" data-nav-link="">
-         <a href='./portfolio'>Portfolio</a>
+         <a href='./portfolio'>Projects</a>
         </button>
       </li>
       <li className="navbar-item">
