@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChrome} from '@fortawesome/free-brands-svg-icons';
 
-// , faSass, faBootstrap, faGit, faNpm, faJs, faReact, faVuejs, faAngular, faFont, faFileCode, faCss3A
+// , faSass, faBootstrap, faGit, faNpm, faJs, faReact, faVuejs, faAngular, faFont, faFileCode, faCss3
 function Resume() {
   return (
     
