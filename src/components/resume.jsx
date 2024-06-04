@@ -37,7 +37,7 @@ function Resume() {
         <h4 className="h4 timeline-item-title">
           High school
         </h4>
-        <span>2020 — 2004</span>
+        <span>2020 — 2006</span>
         <p className="timeline-text">
           I have completed my High School from one of the best school of North-east India Marian School.
           I have secured 73% in my High School Examination from SEBA Board.
