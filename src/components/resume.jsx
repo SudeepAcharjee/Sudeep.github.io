@@ -150,7 +150,7 @@ function Resume() {
         <span>3. Git & Github</span>
         <span>4. VS Code</span>
         
-        <span>6. Netlify</span>
+        <span>5. Netlify</span>
       </li>
       
 
