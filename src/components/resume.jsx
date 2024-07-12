@@ -149,7 +149,7 @@ function Resume() {
         <span>2. Linux OS </span>
         <span>3. Git & Github</span>
         <span>4. VS Code</span>
-        <span></span>
+        
         <span>6. Netlify</span>
       </li>
       
