@@ -34,7 +34,7 @@ function Aside() {
       </button>
        <ul className="social-list">
         <li className="social-item">
-          <a href="htps://github.com/SudeepAcharjee" className="social-link">
+          <a href="https://github.com/SudeepAcharjee" className="social-link">
             <ion-icon name="logo-github" />
           </a>
         </li>
