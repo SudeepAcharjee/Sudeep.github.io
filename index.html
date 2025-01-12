@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sudeep Acharjee Threejs Developer | Frontend" />
+    <meta
+      name="keywords"
+      content="SudeepAcharjee, three.js , 3js, web developer, frontend developer, fullstack developer, react developer, nextjs developer, threejs developer, threejs"
+    />
+    <meta name="author" content="SudeepAcharjee" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <script
+      src="https://kit.fontawesome.com/dcee5ef514.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sudeep's THREEjs Portfolio</title>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+      <div class="asscrollbar">
+        <div class="asscrollbar__handle"><div></div></div>
+      </div>
+
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm283-100q-100 0-170-70t-70-170q0-100 70-170t170-70q100 0 170 70t70 170q0 100-70 170t-170 70Zm0-80q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z"
+            />
+          </svg>
+        </div>
+
+        <button class="toggle-button">
+          <div class="toggle-circle"></div>
+        </button>
+
+        <div class="moon-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path
+              fill="currentColor"
+              d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
+            <div class="intro-text">Welcome to my Portfolio WEBSite! </div>
+
+            <div class="arrow-wrapper">
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M480-362q-8 0-15-2.5t-13-8.5L268-557q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-373q-6 6-13 8.5t-15 2.5Z"
+                />
+              </svg> -->
+              <div class="chevrons">
+                <div class="chevrondown"></div>
+                <div class="chevrondown"></div>
+              </div>
+            </div>
+
+            <div class="hero-main">
+              <h1 class="hero-main-title">Sudeep Acharjee</h1>
+              <p class="hero-main-description">
+                Full-Stack Engineer | Threejs Developer
+              </p>
+            </div>
+
+            <div class="hero-second">
+              <p class="hero-second-subheading">MY JOURNEY</p>
+              <p class="hero-second-description">W.E.B.S.I.T.E</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">Introduction</span>
+              <div class="section-title-decoration style1"></div>
+              <div class="section-title-decoration style2"></div>
+              <div class="section-title-decoration style3"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">About me</h3>
+            <p class="section-text">
+              I'm Creative Website Developer and Full-Stack Engineer from Assam, India. . I have been working in Full-Stack Development, 3D Web Development, App Development(Frontend) and XR Development. I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding or pushing pixels, you'll find me in the chess.com playing chess. I have been practising full time coding for the past 2 years and have been working on it
+            </p>
+            <!-- <button class="section-button">
+              <a href="https://bokoko33.me/" target="_blank"
+                >Bokoko33's Website →</a
+              >
+            </button>
+            <button class="section-button">
+              <a href="https://twitter.com/bokoko33" target="_blank"
+                >Bokoko33's Twitter →</a
+              >
+            </button> -->
+            <div class="icon-container">
+              <div class="icon-section">
+                <i class="fas fa-code"></i>
+                <p>Website Development</p>
+              </div>
+              <div class="icon-section">
+                <i class="fas fa-mobile-alt"></i>
+                <p>App Development</p>
+              </div>
+              <div class="icon-section">
+                <i class="fas fa-vr-cardboard"></i>
+                <p>XR Development</p>
+              </div>
+            </div>
+            <h3 class="section-heading">More...</h3>
+            <p class="section-text">
+              I am a passionate and dedicated Developer with a strong foundation in modern web technologies. I have honed my skills in JavaScript, TypeScript, Tailwind CSS, Next.js, React.js, Three.js, GSAP, Framer Motion, Firebase, Supabase, and React Native, enabling me to create dynamic and responsive web applications. My journey in web development is driven by my commitment to continuous learning and staying updated with the latest industry trends. I take pride in showcasing my expertise and creativity through projects that deliver user-centric solutions.
+            </p>
+            <button class="section-button">
+              <a href="/others/resume.pdf" target="_blank">My resume →</a>
+            </button>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Projects</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <p class="section-text">
+              Currently I am still studying, hence I will list some notable
+              freelancing work here. I hope I am able to add more clients projects
+              here in the near future!
+            </p>
+            <h3 class="section-heading">3D Website- Nextjs</h3>
+            <p class="section-text">
+             Term- A dubai based clients project.
+            </p>
+            <button class="section-button">
+              <a
+                href="https://dev-nextjs.term.ae/"
+                target="_blank"
+                >Live Link →</a
+              >
+            </button>
+            <h3 class="section-heading">School Management Software</h3>
+            <p class="section-text">
+              A open-schooling board Management software
+            </p>
+            <button class="section-button">
+              <a
+                href="https://student.dbos.co.in"
+                target="_blank"
+                >Live Link →</a
+              >
+            </button>
+            <h3 class="section-heading">Company Portfolio Site</h3>
+            <p class="section-text">
+              Sheryl Tech- An US based clients project for their company portfolio.
+            </p>
+            <button class="section-button">
+              <a
+                href="https://sheryltech.com/"
+                target="_blank"
+                >Live Link →</a
+              >
+            </button>
+            <h3 class="section-heading">XR Development</h3>
+            <p class="section-text">
+              Renderops - A startup that is providing solutions to all kind of AR/VR .
+            </p>
+            <button class="section-button">
+              <a
+                href="https://demo.renderops.com/"
+                target="_blank"
+                >Live Link →</a
+              >
+            </button>
+          </div>
+        </section>
+
+        <!-- <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text green-text">Next Step</span>
+              <div class="section-title-decoration style1 green-border"></div>
+              <div class="section-title-decoration style2 green-border"></div>
+              <div
+                class="section-title-decoration style3 green-background green-border"
+              ></div>
+            </h1>
+            <span class="section-number green-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">My Experince...</h3>
+            <p class="section-text">
+              <h3>Education</h3>
+              <div class="icon-container">
+                <div class="icon-section">
+                  <img src="https://img.icons8.com/color/96/school-building.png" alt="School Icon" class="icon-img" />
+                  <h3>School</h3>
+                  <p>Year: 2015</p>
+                  <p>Percentage: 95%</p>
+                  <button class="btn-view-pdf" onclick="viewPDF('school-marksheet.pdf')">View Marksheet</button>
+                </div>
+                <div class="icon-section">
+                  <img src="https://img.icons8.com/color/96/classroom.png" alt="Secondary School Icon" class="icon-img" />
+                  <h3>Secondary School</h3>
+                  <p>Year: 2017</p>
+                  <p>Percentage: 90%</p>
+                  <button class="btn-view-pdf" onclick="viewPDF('secondary-marksheet.pdf')">View Marksheet</button>
+                </div>
+                <div class="icon-section">
+                  <img src="https://img.icons8.com/color/96/university.png" alt="Degree Icon" class="icon-img" />
+                  <h3>Degree</h3>
+                  <p>Year: 2021</p>
+                  <p>Percentage: 88%</p>
+                  <button class="btn-view-pdf" onclick="viewPDF('degree-marksheet.pdf')">View Marksheet</button>
+                </div>
+              </div>
+            </p>
+            <br><br>
+            <p class="section-text">
+              <h3>Work Experince</h3>
+              
+                <h2>Dihing Education Foundation - <a href="https://defedu.org.in" target="_blank">https://defedu.org.in</a> <span>July 2024 - December 2024</span></h2>
+                <p><strong>Fullstack Engineer Intern</strong></p>
+                <ul>
+                  <li>Developed their Website along with dashboard and admin panel.</li>
+                  <li>Worked on other Government college websites and developed a responsive UI and Dashboard.</li>
+                  <li>Learned to manage and scale websites with lots of users in Cloud (AWS).</li>
+                </ul>
+             
+                <h2>BitsBytesStudio - <a href="https://www.bitsbytesstudio.com" target="_blank">https://www.bitsbytesstudio.com</a> <span>Feb 2024 - June 2024</span></h2>
+                <p><strong>Frontend Engineer Intern</strong></p>
+                <ul>
+                  <li>Contributed to the planning and execution of various projects, focusing on maintaining strict adherence to deadlines and project timelines.</li>
+                  <li>Worked closely with design and development teams to implement responsive UI.</li>
+                  <li>Participated in code reviews to enhance quality, reduce bugs, and ensure best practices in frontend development.</li>
+                </ul>
+             
+
+            </p>
+            <p class="section-text">
+              Looking ahead, I am eager to further immerse myself in these
+              technologies, honing my skills to produce intricate and
+              mesmerizing patterns and animations. This project drew inspiration
+              from Bokoko33's website design, and with the knowledge gained from
+              its creation, I aspire to craft even more remarkable and
+              awe-inspiring websites in the future.
+            </p>
+          </div>
+        </section> -->
+
+        <div class="fourth-move section-margin"></div>
+
+        <section class="fourth-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">Contact Me</span>
+              <div class="section-title-decoration style1 blue-border"></div>
+              <div class="section-title-decoration style2 blue-border"></div>
+              <div
+                class="section-title-decoration style3 blue-background blue-border"
+              ></div>
+            </h1>
+            <span class="section-number blue-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Contact Me</h3>
+            <p class="section-text">
+              Feel free to explore my repositories and reach out to me. I'm
+              always looking for opportunities to learn and grow as a Developer.
+            </p>
+            <ul class="contact-button-wrapper">
+              <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span
+                  ><a href="https://github.com/SudeepAcharjee" target="_blank"
+                    ><i class="fa-brands fa-github"></i></a
+                ></span>
+              </li>
+              <li class="icon linkedin">
+                <span class="tooltip">Linkedin</span>
+                <span
+                  ><a
+                    href="https://www.linkedin.com/in/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i></a
+                ></span>
+              </li>
+              <li class="icon gmail">
+                <span class="tooltip">Email: sudeepacharjeegp@gmail.com</span>
+                <span
+                  ><a href="mailto:sudeepacharjeegp@gmail.com" target="_blank"
+                    ><i class="fa-regular fa-envelope"></i></a
+                ></span>
+              </li>
+            </ul>
+              <h3 class="section-heading">The End </h3>
+            <!-- <h3 class="section-heading">Acknowledgement</h3>
+            <p class="section-text">
+              Credits to <b>Bokoko33</b>'s website which I drew inspiration from
+            </p> -->
+            <!-- <button class="section-button bot-button">
+              <a href="https://bokoko33.me/" target="_blank"
+                >Bokoko33's Website →</a
+              >
+            </button>
+            <button class="section-button bot-button">
+              <a href="https://twitter.com/bokoko33" target="_blank"
+                >Bokoko33's Twitter →</a
+              >
+            </button> -->
+            <!-- <p class="section-text">
+              Also credits to <b>Andrew Woan</b>'s youtube tutorial on gsap
+              timelines and three.js
+            </p> -->
+            <!-- <button class="section-button bot-button">
+              <a href="https://www.youtube.com/@andrewwoan" target="_blank"
+                >Andrew Woan's Youtube →</a
+              >
+            </button> -->
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script>
+      function viewPDF(pdfFileName) {
+        window.open(pdfFileName, '_blank');
+      }
+    </script>
+  </body>
+</html>
